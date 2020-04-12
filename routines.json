@@ -1,0 +1,48 @@
+[
+    {
+        "id": "1",
+        "type": "voice",
+        "trigger": "All on",
+        "actions": {
+            "turnon": {
+                "nodeName": "Light",
+                "nodeLocation": "Kitchen",
+                "delay": "0"
+            },
+            "turnoff": {
+                "nodeName": "Light",
+                "nodeLocation": "Kitchen",
+                "delay": "0"
+            },
+            "iraction": {
+                "nodeName": "TV",
+                "nodeLocation": "Bedroom",
+                "task": "ON",
+                "delay": "2"
+            }
+        }
+    },
+{
+        "id": "2",
+        "type": "schedule",
+        "trigger": "15:05",
+        "actions": {
+            "turnon": {
+                "nodeName": "Light",
+                "nodeLocation": "Kitchen",
+                "delay": "0"
+            },
+            "turnoff": {
+                "nodeName": "Light",
+                "nodeLocation": "Kitchen",
+                "delay": "0"
+            },
+            "iraction": {
+                "nodeName": "TV",
+                "nodeLocation": "Bedroom",
+                "task": "ON",
+                "delay": "2"
+            }
+        }
+    }
+]

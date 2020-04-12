@@ -1,0 +1,1 @@
+[{"id": 1, "type": "voice", "trigger": "Morning", "actions": [{"turnon": {"node": "3", "delay": "0"}, "turnoff": {"node": "2", "delay": "0"}, "iraction": {"node": "5", "task": "ON", "delay": "2"}}]}, {"id": 2, "type": "scheduled", "trigger": "12:30", "actions": [{"turnon": {"node": "3", "delay": "0"}, "turnoff": {"node": "2", "delay": "0"}}]}]
